@@ -174,9 +174,31 @@ let person = {
 
 ### บันทึกผลการทดลอง 2.1
 ```html
-[บันทึกโค้ด ที่นี่]
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ข้อมูลนักศึกษา</title>
+    <script defer src="script.js"></script>
+</head>
+<body>
+    <h2>ข้อมูลนักศึกษา</h2>
+    <p><strong>รหัสนักศึกษา:67030181</strong> <span id="studentID"></span></p>
+    <p><strong>ชื่อ:นายภูมิพัฒน์ กุลด้วง</strong> <span id="studentName"></span></p>
+    <p><strong>สาขาวิชา:เทคโนโลยีคอมพิวเตอร์</strong> <span id="major"></span></p>
+    <p><strong>เกรดเฉลี่ย:4.00</strong> <span id="gpa"></span></p>
+
+    <h2>คะแนนสอบ</h2>
+    <p><strong>คะแนนสอบกลางภาค:85</strong> <span id="midtermScore"></span></p>
+    <p><strong>คะแนนสอบปลายภาค:90</strong> <span id="finalScore"></span></p>
+    <p><strong>คะแนนรวม:175</strong> <span id="totalScore"></span></p>
+    <p><strong>คะแนนเฉลี่ย:87.50</strong> <span id="averageScore"></span></p>
+</body>
+</html>
 ```
-[รูปผลการทดลองที่ 2.1]
+![image](https://github.com/user-attachments/assets/2754217f-67ca-4fb4-9ed4-990b1ba0e832)
+
 
 
 ### 2.2 การดำเนินการทางคณิตศาสตร์
